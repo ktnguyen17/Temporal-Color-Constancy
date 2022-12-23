@@ -3,14 +3,14 @@ import torch.nn as nn
 import torch.nn.init as init
 import torch.utils.model_zoo as model_zoo
 import torch.nn.functional as F
-from utils import *
+from auxiliary.utils import *
 
 
 from torch.distributions import Categorical
 
-from squeezenet import *
-from alexnet import *
-from vggnet import *
+from auxiliary.squeezenet import *
+from auxiliary.alexnet import *
+from auxiliary.vggnet import *
 
 class CreateNet_hist(nn.Module):
     def __init__(self,model):

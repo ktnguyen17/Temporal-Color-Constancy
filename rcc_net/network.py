@@ -6,13 +6,13 @@ import torch.nn.functional as F
 
 import sys
 sys.path.append('./auxiliary/')
-from utils import *
-from model import CreateNet_AlexNet
-from alexnet import *
+from auxiliary.utils import *
+from auxiliary.model import CreateNet_AlexNet
+from auxiliary.alexnet import *
 
 
 #2d lstm
-from convolution_lstm import *
+from rcc_net.convolution_lstm import *
 
 #for visualization
 import matplotlib.pyplot as plt

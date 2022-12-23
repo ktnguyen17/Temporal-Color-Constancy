@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.init as init
 import torch.utils.model_zoo as model_zoo
 import torch.nn.functional as F
-from utils import *
+from auxiliary.utils import *
 
 __all__ = ['SqueezeNet', 'squeezenet1_0', 'squeezenet1_1']
 

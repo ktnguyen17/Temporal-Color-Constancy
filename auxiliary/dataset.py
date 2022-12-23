@@ -10,8 +10,8 @@ import numpy as np
 import torch
 import torch.utils.data as data
 
-from config import *
-from utils import rotate_and_crop
+from auxiliary.config import *
+from auxiliary.utils import rotate_and_crop
 
 #for visualization
 import matplotlib.pyplot as plt

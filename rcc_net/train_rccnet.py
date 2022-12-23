@@ -15,11 +15,11 @@ import torch.utils.data
 from torch.autograd import Variable
 
 sys.path.append('./auxiliary/')
-from dataset  import *
-from utils import *
+from auxiliary.dataset  import *
+from auxiliary.utils import *
 
 #import rcc-net network
-from network import *
+from rcc_net.network import *
 
 #for visualization
 import matplotlib.pyplot as plt
